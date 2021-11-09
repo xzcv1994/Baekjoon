@@ -1,9 +1,16 @@
-//import java.util.ArrayList;
-//import java.util.List;
-//import java.util.Scanner;
-//
-//public class Main {
-//    public static void main(String[] args) {
+package Test;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Main {
+    static int min = 1000;
+    public static void main(String[] args) {
+        test2();
+        System.out.println(min);
+
+
 //        int[] drinks = new int[10000];
 //        int[] dp = new int[10000];
 //
@@ -33,5 +40,10 @@
 //
 //    public static int get_max(int a, int b){
 //        return a>b ? a : b;
-//    }
-//}
+    }
+
+    static void test2()
+    {
+        min = 4;
+    }
+}
